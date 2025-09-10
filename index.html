@@ -3,35 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Miti Media | Home</title>
+        <title>Miti Media Agency | Home</title>
         <link rel="stylesheet" href="styles.css">
         <script src="script.js" defer></script>
     </head>
     <body>
         <header>
-            <h1>Welcome to Miti Media</h1>
+            <div class="logo">
+                <img src="images/Logo.png" alt="Miti Media Agency Logo">
+            </div>
             <nav>
                 <ul>
-                    <li><a href="#about">About Us</a></li>
                     <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Miti Media is a leading media company specializing in digital content creation and marketing strategies.</p>
-        </section>
-
         <section id="services">
             <h2>Our Services</h2>
             <ul>
-                <li>Content Creation</li>
+                <li>Web Development</li>
+                <li>Graphic Design</li>
                 <li>Social Media Management</li>
                 <li>SEO Optimization</li>
-                <li>Marketing Campaigns</li>
+                <li>Content Marketing</li>
             </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Miti Media Agency is dedicated to providing top-notch digital marketing solutions tailored to your business needs.</p>
         </section>
 
         <section id="contact">
@@ -49,9 +52,68 @@
                 <button type="submit">Send Message</button>
             </form>
         </section>
+<footer>
+    <div class="foot">
+        <div class="col-1">
+            <h3>Contact Miti Media</h3>
+            <div class="contact-row">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>+27 79 123 4567</span>
+            </div>
+            <div class="contact-row">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:info@mitimedia.com">info@mitimedia.com</a>
+            </div>
+            <div class="contact-row">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Sandton, Johannesburg</span>
+            </div>
+            <p><small>Miti Media &copy; Copyright 2025</small></p>
+        </div>
 
-        <footer>
-            <p>&copy; 2025 Miti Media. All rights reserved.</p>
-        </footer>
+        <div class="col-2">
+            <h3>Useful Links</h3>
+            <div class="links">
+                <a href="index.html"><span>&gt; </span> Home</a>
+                <a href="#about"><span>&gt; </span>About Us</a>
+                <a href="#services"><span>&gt; </span>Services</a>
+                <a href="#contact"><span>&gt; </span>Contact Us</a>
+            </div>
+        </div>
+
+        <div class="col-3">
+            <h3>Our Services</h3>
+            <div class="links">
+                <a href="#services"><span>&gt; </span> Web Development</a>
+                <a href="#services"><span>&gt; </span> Graphic Design</a>
+                <a href="#services"><span>&gt; </span> Social Media Management</a>
+                <a href="#services"><span>&gt; </span> SEO Optimization</a>
+                <a href="#services"><span>&gt; </span> Content Marketing</a>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <h3>Newsletter</h3>
+            <form class="newsletter-group">
+                <input type="email" placeholder="Your Email Address" required />
+                <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="dev">
+        <p>
+            <small>
+                Designed & Developed by:
+                <a href="https://tdre-portfolio.vercel.app/" target="_blank">T.Dre</a>
+            </small>
+        </p>
+    </div>
+</footer>
     </body>
 </html>
